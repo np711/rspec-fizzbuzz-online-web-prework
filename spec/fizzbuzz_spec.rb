@@ -2,7 +2,7 @@ require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
 
 describe "The Thing We're Testing" do
-    fizz_3 = fizzbuzz(3)
+    fizzbuzz(3) == "Fizz"
  
     expect(fizz_3).to eq("Fizz")
   end
